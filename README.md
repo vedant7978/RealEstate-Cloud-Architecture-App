@@ -1,4 +1,4 @@
-# Alpha97 Estate - Real Estate Web App
+# Real Estate - A Estate Web App
 
 ![Real Estate Logo](./client/public/app-screenshot-1.png)
 
