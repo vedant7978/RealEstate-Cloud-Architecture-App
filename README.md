@@ -1,10 +1,8 @@
 # Alpha97 Estate - Real Estate Web App
 
-![Alpha97 Estate Logo](./client/public/app-screenshot-1.png)
+![Real Estate Logo](./client/public/app-screenshot-1.png)
 
-Alpha97 Estate is a modern real estate web application built with the MERN (MongoDB, Express.js, React, Node.js) stack. It provides a platform for users to search, list, and explore various properties, whether for sale or rent. The application offers a user-friendly interface, advanced search options, and a seamless user experience.
-
-Check out the live app: [Alpha97 Estate on Render](https://alpha97-estate.onrender.com/)
+Real Estate is a modern real estate web application built with the MERN (MongoDB, Express.js, React, Node.js) stack. It provides a platform for users to search, list, and explore various properties, whether for sale or rent. The application offers a user-friendly interface, advanced search options, and a seamless user experience.
 
 ## Features
 
@@ -20,12 +18,16 @@ Check out the live app: [Alpha97 Estate on Render](https://alpha97-estate.onrend
 
 ![Screenshot 1](./client/public/app-screenshot-2.png)
 
+## System Architecture
+
+![Cloud Architecture drawio5](https://github.com/user-attachments/assets/c99278c7-d4dd-48dd-8755-eb7444963211)
+
 ## Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/alphadev97/AlphaEstate.git
+   git clone https://github.com/vedant7978/RealEstate-Cloud-Architecture-App.git
    ```
 
 2. Change into the project directory:
@@ -66,8 +68,6 @@ Check out the live app: [Alpha97 Estate on Render](https://alpha97-estate.onrend
 
 ## Usage
 
-- Access the web app via the provided link: [Alpha97 Estate on Render](https://alpha97-estate.onrender.com/)
-
 - Explore property listings, customize your search, and create a user profile to list properties or access additional features.
 
 ## Contributing
@@ -101,5 +101,5 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Contact
 
-1. [GITHUB](https://github.com/alphadev97)
-2. [LINKEDIN](https://www.linkedin.com/in/alpha97/)
+1. [GITHUB](https://github.com/vedant7978)
+2. [LINKEDIN](https://www.linkedin.com/in/vedant-patel-06bb3b224/)
