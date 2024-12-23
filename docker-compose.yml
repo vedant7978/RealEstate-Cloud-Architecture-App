@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: . # Assumes your Dockerfile for the backend is in the root directory
+    ports:
+      - "3000:3000" 
+    environment:
+      - MONGO=mongodb://host.docker.internal:27017/test 
+    depends_on:
+      - mongo # Ensure MongoDB starts before the backend
+    networks:
+      - app-network
+      
+  frontend:
+    build:
+      context: ./client # Path to the frontend directory containing the Dockerfile
+    ports:
+      - "5173:5173" # Expose frontend port 5173 to host
+    depends_on:
+      - backend 
+    networks:
+      - app-network
+    environment:
+      - VITE_BACKEND_URL=http://backend:3000
+
+  mongo:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017" 
+    networks:
+      - app-network
+    volumes:
+      - mongo-data:/data/db # Persist MongoDB data
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  mongo-data:
