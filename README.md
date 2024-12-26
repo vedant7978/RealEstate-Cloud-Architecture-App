@@ -14,6 +14,14 @@ Real Estate is a modern real estate web application built with the MERN (MongoDB
 
 - **Authentication**: Secure user registration and login functionality with Google OAuth.
 
+## Deployment 
+
+![Screenshot 2024-12-25 214130](https://github.com/user-attachments/assets/b18ff47b-cb87-43ab-ab5b-ee4c528bb70e)
+
+![Screenshot 2024-12-25 214031](https://github.com/user-attachments/assets/b9cd553c-6b7d-4f63-a2f0-11fbb12f9c7b)
+
+![Screenshot 2024-12-25 214255](https://github.com/user-attachments/assets/de311987-2425-4b90-a4c1-008aebe51e79)
+
 ## Screenshot
 
 ![Screenshot 1](./client/public/app-screenshot-2.png)
